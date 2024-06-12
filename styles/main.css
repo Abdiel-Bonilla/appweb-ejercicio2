@@ -207,3 +207,30 @@ footer p{
     color: var(--color-whithe);
     margin-top: 30px;
 }
+.aboutme-container{
+    font-family: 'Roboto moono', monospace;
+    display: inline-block;
+    padding-left: 10px;
+    max-width: 30%;
+    margin-bottom: 50px;
+}
+.proyect-container{
+    text-align: center;
+    border-bottom: 2px solid var(--color-black);
+}
+.footer-container{
+    width: 100%;
+    height: 100px;
+    background-color: var(--color-primary);
+}
+.footer-container img{
+    width: 90px;
+    height: 90px;
+}
+.footer-container p{
+    display: inline-block;
+    text-align-last: inherit;
+    font-size: 15px;
+    grid-column: 2;
+    color: var(--color-black);
+}
